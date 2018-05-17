@@ -1,3 +1,12 @@
+'''
+A binary classification problem
+data: text movie reviews
+output: 1 or 0
+'''
+
+
+
+
 from keras.datasets import imdb
 from keras import models
 from keras import layers

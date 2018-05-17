@@ -1,3 +1,10 @@
+'''
+Multi classification problem
+Data: Reuters news data
+output: one among 46 class labels
+'''
+
+
 import numpy as np
 from keras.datasets import reuters
 from keras import models,layers

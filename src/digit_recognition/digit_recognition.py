@@ -1,3 +1,10 @@
+'''
+Hello world to Keras..
+A basic implementation of digit recognition on mnist data
+multi class prediction problem
+'''
+
+
 from keras.datasets import mnist
 from keras import models
 from keras import layers
