@@ -21,6 +21,7 @@ model.add(Flatten())   #Reshapes the 3d tensor to 2d tensor => o/p shape = (samp
 model.add(Dense(1, activation='sigmoid'))
 model.compile(optimizer='rmsprop', loss='binary_crossentropy', metrics=['acc'])
 model.summary()
+
 history = model.fit(x_train, y_train,
                     epochs=10,
                     batch_size=32,
